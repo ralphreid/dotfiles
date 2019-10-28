@@ -39,3 +39,6 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+# For VIM Plugin junegunn/fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
