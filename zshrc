@@ -45,3 +45,8 @@ _load_settings "$HOME/.zsh/configs"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/jah/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
