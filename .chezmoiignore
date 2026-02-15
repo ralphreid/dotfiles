@@ -1,0 +1,18 @@
+# Chezmoi ignore: paths (target) not applied by default.
+# This repo is prepared for future use as a chezmoi source; adjust when migrating.
+
+# Repo metadata and tooling
+.git/
+.gitignore
+.trunk/
+README*
+README-ES.md
+LICENSE
+CODE_OF_CONDUCT.md
+
+# Documentation: not applied to target in most cases.
+# To include config-related docs in some setups, un-ignore a subdir (e.g. !docs/config/) or move them to a managed path.
+docs/
+
+# Discovery: task outputs and inventories; not applied to target.
+discovery/

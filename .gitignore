@@ -1,2 +1,6 @@
 !bin
 vim/bundle/
+
+# Chezmoi (source repo; run state lives in ~/.local/share/chezmoi)
+.chezmoi.log
+.chezmoi.*.log
