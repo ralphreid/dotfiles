@@ -50,3 +50,5 @@ fpath=(/Users/jah/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="/Applications/Cursor.app/Contents/Resources/app/bin:$PATH"
